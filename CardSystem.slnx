@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="API.Card/API.Card.csproj" />
+  <Project Path="API.Model/API.Model.csproj" />
+  <Project Path="API.Repository/API.Repository.csproj" />
+  <Project Path="API.Service/API.Service.csproj" />
+  <Project Path="API.Utils/API.Utils.csproj" />
+</Solution>
