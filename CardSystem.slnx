@@ -1,7 +1,9 @@
 <Solution>
   <Project Path="API.Card/API.Card.csproj" />
+  <Project Path="API.Finance/API.Finance.csproj" Id="b30c7599-6605-47df-b2b1-6484d1e3522b" />
   <Project Path="API.Model/API.Model.csproj" />
   <Project Path="API.Repository/API.Repository.csproj" />
   <Project Path="API.Service/API.Service.csproj" />
+  <Project Path="API.Test/API.Test.csproj" Id="8af908c7-3656-4172-873b-f37876e05107" />
   <Project Path="API.Utils/API.Utils.csproj" />
 </Solution>

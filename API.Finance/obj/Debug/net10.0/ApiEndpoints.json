@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "API.Finance.Controllers.FinanceController",
+    "Method": "GetAvailableBalanceAsync",
+    "RelativePath": "api/Finance/cards/{cardId}/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cardId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetCurrency",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Finance.Controllers.FinanceController",
+    "Method": "ConvertTransactionAsync",
+    "RelativePath": "api/Finance/transactions/{transactionId}/convert",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transactionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetCurrency",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

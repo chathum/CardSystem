@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "PLrnt6KCSk4=",
+  "success": true,
+  "projectFilePath": "C:\\Tesla\\Demo\\CardSystem\\API.Repository\\API.Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chathurangam\\.nuget\\packages\\dapper\\2.1.72\\dapper.2.1.72.nupkg.sha512"
+  ],
+  "logs": []
+}

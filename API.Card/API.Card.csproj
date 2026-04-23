@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.6" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Service\API.Service.csproj" />
+    <ProjectReference Include="..\API.Model\API.Model.csproj" />
+    <ProjectReference Include="..\API.Repository\API.Repository.csproj" />
+    <ProjectReference Include="..\API.Utils\API.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
